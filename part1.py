@@ -7,6 +7,8 @@ root = Tk()
 root.title('learn to codemy')
 root.iconbitmap('images.jpg')
 my_img = ImageTk.PhotoImage(Image.open("images.jpg"))
+
+
 my_label = Label(image=my_img)
 my_label.pack()
 
